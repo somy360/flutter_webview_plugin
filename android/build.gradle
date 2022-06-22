@@ -40,7 +40,8 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         // NOTE(jeffmikels): When targetSdkVersion or minSdkVersion is not set or < 4, gradle adds 
         // additional scary permissions such as WRITE_EXTERNAL_STORAGE and READ_PHONE_STATE.
-        minSdkVersion 21
+        minSdkVersion 23
+	targetSdkVersion 32
     }
     lintOptions {
         disable 'InvalidPackage'
